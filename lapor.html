@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.checkout{
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 10px 10px 10px 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.checkout {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.chekk{
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+
+</style>
+</head>
+<body>
+    <div class="jdlweb">
+        <p class="jdlwebs">
+            Web Fashion Laki-Laki
+        </p>
+    </div>
+    <header>
+            <div class="nav">
+                <div class="icon">
+                    <i class="ma"><a href="https://facebook.com"><img src="img/icons/Facebook.svg" height="25px" width="25px"></a></i>
+                    <i class="ma"><a href="https://instagram.com"><img src="img/icons/Instagram.svg" height="25px" width="25px"></a></i>
+                    <i class="ma"><a href="https://twitter.com"><img src="img/icons/Twitter.svg" height="25px" width="25px"></a></i>
+                    <i class="ma"><a href="https://youtube.com"><img src="img/icons/YouTube2.svg" height="25px" width="25px"></a></i>
+                    <i class="ma"><a href="https://skype.com"><img src="img/icons/Skype.svg" height="25px" width="25px"></a></i>
+                </div>
+                <div class="menuq">
+                  <ul class="at">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="https://Facebook.com">ABOUT</a></li>
+                    <li><a href="lapor.html">LAPORAN</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="ppolice.html">PRIVACE POLICY</a></li>  
+                </ul>
+                </div>
+            </div>
+    </header>
+
+        <p class="chekk">
+            Laporan
+        </p>
+
+
+    <!-- form chekout -->
+
+
+        <div class="checkout">
+          <form action="index.html">
+          <div class="row">
+            <div class="col-25">
+              <label for="nama">Nama Lengkap</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="nama" name="nama" placeholder="Nama Lengkap">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="email">Email</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="email" name="email" placeholder="Email ">
+            </div>
+          </div>          
+    
+          <div class="row">
+            <div class="col-25">
+              <label for="laporan">Laporan</label>
+            </div>
+            <div class="col-75">
+              <textarea id="laporan" name="lapor" placeholder="Tulis Laporanmu" style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit" onclick="javascript:alert('Laporanmu telah dikirim')">
+          </div>
+          </form>
+        </div>
+
+        <!-- footer -->
+
+        <div class="footer">
+                <div class="pembungkus">
+                <div class="box1">
+                    <p class="penulis">
+                        About Web
+                    </p>
+        
+                    <p class="tntng">
+                            Website ecommerce mencakup berbagai fungsi seperti etalase produk, pemesanan online dan inventarisasi stok, untuk menjalankan fungsi utama sebagai e-commerce.
+                    </p>
+                </div>
+                <div class="box2">
+                    <p class="kntk">
+                        Kontak
+                    </p>
+                    <div class="sosmed">
+                        <i class="scm"><a href="https://facebook.com"><img height="40px" width="40px" src="img/icons/Facebook.svg" alt=""></a></i>
+                        <i class="scm"><img height="40px" width="40px" src="img/icons/Instagram.svg" alt=""></i>
+                        <i class="scm"><img height="40px" width="40px" src="img/icons/Twitter.svg" alt=""></i>
+                        <i class="scm"><img height="40px" width="40px" src="img/icons/YouTube2.svg" alt=""></i>
+                        <i class="scm"><img height="40px" width="40px" src="img/icons/Skype.svg" alt=""></i>
+                    </div>
+        
+                </div>
+                <div class="box3">
+                    <p class="penulis">
+                        Owner Web
+                    </p>
+        
+                    <img class="owner" src="img/owner2.JPG" alt="Nanang Setiawan">
+        
+                    <p class="nama">
+                        Nanang Setiawan
+                    </p>
+                </div>
+                </div>
+                <div class="box4">
+                    <p class="cpy">
+                        Copyright © 2019 Web Shop | Powered by Unisbank
+                    </p>
+                </div>
+            </div>
+
+</body>
+</html>

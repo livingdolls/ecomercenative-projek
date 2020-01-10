@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "Awesome";
+    src: url('awesome.woff');
+ }
+*{
+    margin: 0px;
+    padding: 0;
+    font-family: 'Awesome', sans-serif;
+}
+.detail{
+    display: flex;
+    justify-content: center;
+    -webkit-box-shadow: 10px 0px 15px -4px rgba(0,0,0,0.39);
+    -moz-box-shadow: 10px 0px 15px -4px rgba(0,0,0,0.39);
+    box-shadow: 10px 0px 15px -4px rgba(0,0,0,0.39);
+    width: 95%;
+    margin: 20px auto;
+}
+
+.box{
+    width: 45%;
+    padding: 3%;
+    border-right: 2px solid blueviolet;
+    box-sizing: border-box;
+}
+.detailbox{
+    width: 45%;
+    padding: 3%;
+    box-sizing: border-box;
+    color: #364d63;
+}
+
+img.pr{
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 0px 15px -4px rgba(0,0,0,0.39);
+    -moz-box-shadow: 10px 0px 15px -4px rgba(0,0,0,0.39);
+    box-shadow: 10px 0px 15px -4px rgba(0,0,0,0.39);
+}
+
+.harga{
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: bold;
+}
+.atas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: blueviolet;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+input[type="radio"]{
+    display: none;
+}
+.satu{
+    display: inline-flex;
+    height: 30px;
+    width: 70px;
+    border: 1px solid blueviolet;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+input:checked + label{
+    background: blueviolet;
+    color: white;
+}
+.dua{
+    display: inline-flex;
+    height: 30px;
+    width: 30px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 100%;
+}
+
+/* ========================Radio Button============================= */
+
+input:checked + label{
+    border: 2px solid blueviolet;
+}
+
+input + label.red{
+    background: #F44336 !important;
+}
+input + label.blue{
+    background: #03A9F4 !important;
+}
+input + label.yellow{
+    background: #FFEB3B !important;
+}
+input + label.green{
+    background:#4CAF50;
+}
+
+/* =========================End Radio Button========================== */
+.cart{
+    margin: 10px 0;
+}
+
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+.inp{
+    width: 100%;
+    border: none;
+    background: blueviolet;
+    color: #fff;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+input[type="number"]{
+    border: none;
+    width: 70px;
+    height: 30px;
+    background-color: transparent;
+    border-bottom: 1px solid blueviolet;
+    color: blueviolet;
+    padding: 2px 2px 2px 8px;
+    box-sizing: border-box;
+}
+h2.ct{
+    border-bottom: 1px solid #364d63;
+    margin-bottom: 5px;
+}

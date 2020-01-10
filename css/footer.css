@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "Awesome";
+    src: url('awesome.woff');
+ }
+ *{
+    font-family: 'Awesome', sans-serif;;
+}
+        .footer{
+            background-color: #364d63;
+            overflow: hidden;
+            box-sizing: border-box;;
+        }
+        .box1{
+            height: 250px;
+            width: 30%;
+            background-color: #2d4052;
+            float: left;
+            margin: 1%;
+            box-sizing: border-box;
+        }
+
+        .box2{
+            height: 250px;
+            width: 30%;
+            background-color: #2d4052;
+            float: left;
+            margin: 1%;
+            box-sizing: border-box;
+        }
+
+        .box3{
+            height: 250px;
+            width: 30%;
+            background-color: #2d4052;
+            float: left;
+            margin: 1%;
+            box-sizing: border-box;
+        }
+
+        .box4{
+            height: 60px;
+            width: 100%;
+            background-color: #2c3e50;
+            clear: both;
+            overflow: hidden;
+            display: inline-block;
+        }
+
+        .pembungkus{
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .penulis{
+            font-size: 22px;
+            font-family: sans-serif;
+            background-color: transparent;
+            color:  #dee6ed;
+            text-align: center;
+            margin-top: 5px;
+            text-transform: uppercase;
+        }
+
+        img.owner{
+            border-radius: 150px;
+            height: 150px;
+            width: 150px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            margin-top: 12px;
+        }
+
+        p.nama{
+            font-size: 20px;
+            text-align: center;
+            margin-top: 10px;
+            background-color: transparent;
+            color: #dee6ed;
+        }
+
+        .cpy{
+            text-align: center;
+            margin-top: 20px;
+            background-color: transparent;
+            color: #F8F9FA;
+        }
+
+        .sosmed{
+            /* background-color: transparent; */
+            background-color: #2c3e50;
+            margin-left: auto;
+            margin-right: auto;
+            /* display: inline-block; */
+            padding: 5px;
+            margin-left: 8px;
+            margin-top: 10px;
+        }
+        i.scm{
+            /* background-color: transparent; */
+            margin-left: 14px;
+        }
+
+        .kntk{
+            font-size: 22px;
+            font-family: sans-serif;
+            background-color: transparent;
+            color:  #dee6ed;
+            text-align: center;
+            margin-top: 65px;
+            text-transform: uppercase;
+        }
+
+        p.tntng{
+            font-size: 15px;
+            font-family: sans-serif;
+            background-color: transparent;
+            color:  #dee6ed;
+            text-align: center;
+            text-transform: capitalize;
+            padding: 5px;
+            margin: 2%;
+            margin-top: 25px;
+        }
